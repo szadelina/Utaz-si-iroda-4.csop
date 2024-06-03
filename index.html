@@ -4,89 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>utazasi-iroda</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="main-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Danfo:ELSH@0..100&family=Nabla&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="bootstrap.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Danfo:ELSH@0..100&family=Nabla&display=swap"
+          rel="stylesheet">
+
+
 </head>
 <body>
-    <header class="danfo" id="fejer"><strong>CaSe</strong> <img id="pilot-capy" src="images/pilot-capy.jpg" alt="he's lookin' handsome!" width="40px" height="40px" >
-   </header>
-    <!--- Capybara Services-->
+<header class="danfo" id="fejer"><strong>CaSe</strong> <img id="pilot-capy" src="images/pilot-capy.jpg"
+                                                            alt="he's lookin' handsome!" width="40px" height="40px">
+</header>
+<!--- Capybara Services-->
 
-    <nav>
-                    
-        <ul>
+<nav>
+
+    <ul>
         <li><a href="index.html">Kezdőlap</a></li>
-        <li><a href="カピバラサービス.html">カピバラサービス</a></li>
-        <li><a href="#">CaInt</a></li> <!--Capybara Interstellar--> <!--- 1. Klonoizd az index.html-t 
-        2. javisd ki mindenhol a CaSe feliratot CaseInt-re 
-    2. hoyy letre egz css-t es masold a mian styler fele. 4. a hatter legzen fekekte a sarga meg a kek meg legyen ay ellentetes syinuk (invert color css koddal konnyu) 5. ay ajanlatok legzenek bolygok, realis meretekkel stb)-->
-        <li><a href="#">CaSeH</a></li> <!--Capybara Interstellar Hell-->
-        </ul>
-    
-    </nav>
+    </ul>
 
-    <div id="mySidepanel" class="sidepanel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-       <!--Oldalsó szövegek-->
-      </div>
-      
-      <button class="openbtn" onclick="openNav()">&#9776;</button>
+</nav>
 
-      
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-    
 
-<main>      
 
-<div id="welcome-txt", class="danfo">
-    <h1 style="background-color: rgb(248, 248, 222);">
-        <br>
-        Üdv a CaSe Oldalán! <br>
-        "Semmi sem lehetetlen, ha valaki megteszi helyetted." <img src="images/thinin-capy.jpg" alt="it's strange, ya'know" height="80px" width="300px">
-    </h1>
-   
+    <div id="welcome-txt"  class="danfo quote">
+        <h1 style="background-color: rgb(248, 248, 222);">
+            <br>
+            Üdv a CaSe Oldalán! <br>
+            "Semmi sem lehetetlen, ha valaki megteszi helyetted." <img src="images/thinin-capy.jpg" alt="capybara logo"
+                                                                       height="200px" width="200px">
+        </h1>
+    </div>
+<div > <p class="quote">________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p></div>
 
+
+<div class="row">
+    <div class="col">
+        <p></p>
+    </div>
+    <div class="col">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/zanzibar1.jpg" height="400" width="800px" class="d-block w-10" alt="Zanzibar">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <h5><a href="zanziba.html">Zanziba</a> </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/hawaii1.jpg" height="400" width="800px" class="d-block w-10" alt="Hawaii">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <h5><a href="hawai.html">Hawaii</a> </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/sol_nessebar_palace_23720.jpg"  height="400" width="800px" class="d-block w-10" alt="Bulgária">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <h5><a href="Nessebar_palace.html">Bulgária</a> </h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="col">
+        <p></p>
+    </div>
 </div>
 
 
 
-    <div class="post">
-        <img src="images/bahamas.jpeg" alt="img" width="100px" height="100px"> 
-        <span><strong>Bahama privát sziget  </strong> </span>
-        <a href="Bahamas.html"><button type="button" class="btn btn-warning">Érdekel</button></a>
-    </div>
-
-    <div class="post">
-        <img src="images/bungaloo1.jpg" alt="img" width="100px" height="100px"> 
-        <span><strong>Hawaiian Boongaloo </strong> </span>
-        <a href="hawai.html"><button type="button" class="btn btn-warning">Érdekel</button></a>
-    </div>
-
-    <div class="post">
-        <img src="images/zanzibailand1.jpg" alt="img" width="100px" height="100px"> 
-        <span><strong>Zanziba Islands </strong> </span>
-        <a href="zanziba.html"><button type="button" class="btn btn-warning">Érdekel</button></a>
-    </div>
-
-
-</main>
 
 <footer>
-    <h6>CaSe© Ltd. All Rights Reserved.</h6> <br>
-    <h6>CaInt Group©</h6> <br>
-    <h6>カピバラサービス©</h6> <br>
+
+    <h6>Dóra Dominik:6,5 Zanziba utazási ajánlat<br>
+    Hajdú Lőrinc:5,5     PPT, Hawaii utazási ajánlat<br>
+    Szokolai Adelina:7 - kezdőlap Bulgária utazási ajánlat, <br>
+    </h6>
+    <h6><a href="https://utazom.com/hotel/sol-nessebar-palace-hotel-neszebar-0">Bulgária</a> </h6>
+    <h6><a href="https://www.nazar.hu/utazas-megtekintes/sansi-kae-beach-resort/120583a?di%5B0%5D=685#tab-galeria">Zanziba</a> </h6>
+    <h6><a href="https://www.nazar.hu/utazas-megtekintes/hawaii-dream/104408a?sm=1#tab-leiras">Hawaii</a></h6>
 </footer>
 
-<script src="bootstrap.bundle.js"></script>
-<script src="script.js"></script>
+<script src="bootstrap/bootstrap.bundle.js"></script>
+<script src="bootstrap/script.js"></script>
 </body>
 </html>
