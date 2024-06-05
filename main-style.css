@@ -167,7 +167,7 @@ nav {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    text-align: justify;
+    text-align: center;
   }
 
 
@@ -215,3 +215,10 @@ text-decoration: none;
 }
 h1 {
 text-align: center;}
+
+.setsize {
+width:60%;
+}
+.sidestuff {
+color:white;
+}
